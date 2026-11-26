@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+ 
+<head>
+ <title>cards.com</title>
+  <style>
+   .cards {
+     background-color: gold;
+     padding: 20px;
+     display: grid;
+     grid-template-columns: 2fr 1fr 1fr;
+	 gap: 10px;
+	 text-align: center;
+     }
+	 
+   .card {
+     margin: 5px;
+     border: 2px solid black;
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: space-between;
+     }
+	 
+   @media (max-width: 700px){
+     .cards {
+	  grid-template-columns: 1fr;
+	  background-color: silver;
+	  }
+	  }
+	 
+   </style>
+</head>	
+<body>
+ <div class="cards">
+   <div class="card">1</div>
+   <h3>Design</h3>
+   <p>Learn HTML</p>
+   <div class="card">2</div>
+   <div class="card">3</div>
+   <div class="card">4</div>
+   <div class="card">5</div>
+   <div class="card">6</div>
+  </div>
+
+  <div class="container-fluid p-5 bg-primary text-white text-center">
+  <h1>My First Bootstrap Page</h1>
+  <p>Resize this responsive page to see the effect!</p>
+</div>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Column 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 3</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+  </div>
+</div
+
+<div class="row">
+    <div class="col-4">A</div>
+    <div class="col-4">B</div>
+    <div class="col-4">C</div>
+  </div>
+
+</body>  
+
+</html>
+
